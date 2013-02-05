@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#Scan through arguments: need an RFC to start from, and a dir location to
+#Scan through arguments: need the 'max' RFC number, and a dir location to
 #archive downloaded files. The archive will be checked before downloading
 #a new RFC. The resulting graph will be stored as JSON.
 
@@ -18,8 +18,8 @@ import shelve
 
 #h = hpy()
 parser = argparse.ArgumentParser(description='RFC crawler')
-parser.add_argument('start', metavar='START', type=int,
-				     help='An RFC to start crawling')
+parser.add_argument('maxrfc', metavar='MAX', type=int,
+				     help='The max RFC number to crawl')
 parser.add_argument('archdir', metavar='ARCHDIR', type=str,
 				     help='Location to archive downloaded RFCs')
 parser.add_argument('outfile', metavar='OUTFILE', type=str,
@@ -67,7 +67,7 @@ def parse_rfc(rfc):
 	del soup
 	return [title, refs]
 
-pending_rfc_set = set([args.start])
+pending_rfc_set = set(range(1,args.maxrfc + 1))
 crawled_rfc_set = set()
 #graph = shelve.open('rfcgraph', 'n')
 graph = { }
@@ -89,7 +89,7 @@ def signal_handler(signal, frame):
 	sys.exit(0)
 signal.signal(signal.SIGINT, signal_handler)
 
-#Crawl through the RFCs, keep adding newly discovered RFCs and build graph
+#Crawl through the RFCs and build graph
 while(pending_rfc_set):
 	print '\n\n'
 	print 'PENDING = '+str(len(pending_rfc_set))+ ' RFCs '
@@ -104,10 +104,10 @@ while(pending_rfc_set):
 		graph[srfc]["title"] = title;
 		graph[srfc]["refs"] = refs;
 
-		before = len(refs)
-		refs -= crawled_rfc_set
-		after = len(refs)
-		print '>>Eliminated ' + str(before - after) + ' duplicates, ' + str(len(refs)) + ' new RFCs added'
-		pending_rfc_set |= refs
+		#before = len(refs)
+		#refs -= crawled_rfc_set
+		#after = len(refs)
+		#print '>>Eliminated ' + str(before - after) + ' duplicates, ' + str(len(refs)) + ' new RFCs added'
+		#pending_rfc_set |= refs
 		#print h.heap();
 rfcexit();
