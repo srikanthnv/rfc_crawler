@@ -13,6 +13,10 @@ import json
 import signal
 import sys
 import argparse
+#from guppy import hpy
+import shelve
+
+#h = hpy()
 parser = argparse.ArgumentParser(description='RFC crawler')
 parser.add_argument('start', metavar='START', type=int,
 				     help='An RFC to start crawling')
@@ -59,10 +63,13 @@ def parse_rfc(rfc):
 			if m and m.group(1) != str(rfc):
 				refs.add(int(m.group(1)))
 				#print m.group(1)
-	return [soup.title.string, refs]
+	title = soup.title.string
+	del soup
+	return [title, refs]
 
 pending_rfc_set = set([args.start])
 crawled_rfc_set = set()
+#graph = shelve.open('rfcgraph', 'n')
 graph = { }
 
 class SetEncoder(json.JSONEncoder):
@@ -70,12 +77,15 @@ class SetEncoder(json.JSONEncoder):
 		if isinstance(obj, set):
 			return list(obj)
 		return json.JSONEncoder.default(self, obj)
-def signal_handler(signal, frame):
+def rfcexit():
 	print 'Writing graph to file...'
 	f = open(args.outfile, 'w')
 	json.dump(graph, f, cls=SetEncoder, sort_keys=True,
 		indent=4, separators=(',', ': '));
 	f.close();
+
+def signal_handler(signal, frame):
+	rfcexit()
 	sys.exit(0)
 signal.signal(signal.SIGINT, signal_handler)
 
@@ -89,13 +99,15 @@ while(pending_rfc_set):
 		[title, refs] = parse_rfc(rfc)
 		crawled_rfc_set.add(rfc)
 
-		graph[rfc]={}
-		graph[rfc]["title"] = title;
-		graph[rfc]["refs"] = refs;
+		srfc = str(rfc)
+		graph[srfc]={}
+		graph[srfc]["title"] = title;
+		graph[srfc]["refs"] = refs;
 
 		before = len(refs)
 		refs -= crawled_rfc_set
 		after = len(refs)
 		print '>>Eliminated ' + str(before - after) + ' duplicates, ' + str(len(refs)) + ' new RFCs added'
 		pending_rfc_set |= refs
-
+		#print h.heap();
+rfcexit();
