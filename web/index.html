@@ -8,7 +8,7 @@
         <script src="./jquery-1.9.1.min.js"></script>
 
         <script type='text/javascript'>
-			
+
 			var graph;
 			var nodelist = [];
 			var nodestate = [];
@@ -46,7 +46,7 @@
 							}
 							nodechildren[from].push(rfc);
 						}
-						graph.addLink('RFC' + from , 'RFC'+rfc);				
+						graph.addLink('RFC' + from , 'RFC'+rfc);
 					}
 					nodestate[from] = 'open';
 				} else {
@@ -67,10 +67,10 @@
 					update_graph(rfc_graph);
 					return;
 				}
-				
+
 				//draw a new graph
 				graph = Viva.Graph.graph();
-				
+
 				var layout = Viva.Graph.Layout.forceDirected(graph, {
 					springLength : 200,
 					springCoeff : 0.0005,
@@ -151,7 +151,12 @@
 						do_proc();
 					}
 				});
-				$("#rfcinbut").click(function(){do_proc()});
+				$("#rfcinbut").click(function(){
+					do_proc();
+				});
+				$("#helpbut").click(function(){
+					$("#help").toggle();
+				});
 
             }
         </script>
@@ -170,12 +175,13 @@
             #graph1{
                 position: absolute;
                 vertical-align:middle;
-                width: 100%;
-                height: 100%;
+                width: 98%;
+                height: 98%;
             }
             #help {
-            	position: absolute;
-            	z-index: -1;
+            	float:left;
+            	display: inline;
+            	font-size: smaller;
             }
             #top {
             	position:relative;
@@ -192,8 +198,9 @@
                 position: absolute;
                 padding: 0px;
                 overflow:hidden;
-                margin: 0;
+                margin: 0px;
                 font-family: Arial, Helvetica, Tahoma, sans-serif;
+                border:1px solid black;
             }
             a {
             	color: #ccc;
@@ -204,16 +211,35 @@
                 width: 98%;
                 height: 98%;
             }
+            svg {
+                width: 98%;
+                height: 98%;
+            }
+            input {
+            	border:none;
+            	height: 15px;
+            	width: 80px;
+            	margin: 5px;
+            	padding: 5px;
+            }
 
         </style>
     </head>
     <body onload="onLoad()" style="background-color: #ddd;">
-    <div id="top">RFC Number: <input id="rfcin" type=text style="border:none; height: 15px; width: 80px; margin: 5px; padding: 5px;" /> <a href="#" id="rfcinbut">Go!</a></div>
+    <div id="top">RFC Number: <input id="rfcin" type="text" /> <a href="#" id="rfcinbut">Go!</a> | <a href="#" id="helpbut">Help</a></div>
+    <div id="container">
+    <div id="about">
+
+
+    </div>
     <div id="help">
     	<p><ul><li>Enter an RFC number to get started.</li>
     	<li>Click any RFC to open its references.</li>
     	<li>Double-click to open the RFC.</li>
-    	<li>Click an open RFC to close its references.</li></p>
+    	<li>Click an open RFC to close its references.</li></ul></p>
+    	<hr>
+    	<p><ul><li>Code available at <a href="https://github.com/srikanthnv/rfc_crawler" style="color: #777" target="_blank">github</a></li></ul></p>
+    </div>
     </div>
     </body>
 </html>
