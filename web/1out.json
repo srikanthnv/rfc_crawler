@@ -1,0 +1,75 @@
+{
+    "3": {
+        "refs": [
+            10
+        ],
+        "title": "RFC 3 - Documentation conventions"
+    },
+    "10": {
+        "refs": [
+            16,
+            24,
+            27,
+            30
+        ],
+        "title": "RFC 10 - Documentation conventions"
+    },
+    "16": {
+        "refs": [
+            24,
+            27,
+            30
+        ],
+        "title": "RFC 16 - M.I.T"
+    },
+    "20": {
+        "refs": [],
+        "title": "RFC 20 - ASCII format for network interchange"
+    },
+    "24": {
+        "refs": [
+            33,
+            27,
+            30
+        ],
+        "title": "RFC 24 - Documentation Conventions"
+    },
+    "27": {
+        "refs": [],
+        "title": "RFC 27 - Documentation Conventions"
+    },
+    "30": {
+        "refs": [],
+        "title": "RFC 30 - Documentation Conventions"
+    },
+    "31": {
+        "refs": [],
+        "title": "RFC 31 - Binary Message Forms in Computer"
+    },
+    "33": {
+        "refs": [
+            36,
+            47
+        ],
+        "title": "RFC 33 - New Host-Host Protocol"
+    },
+    "36": {
+        "refs": [
+            44,
+            39
+        ],
+        "title": "RFC 36 - Protocol Notes"
+    },
+    "39": {
+        "refs": [],
+        "title": "RFC 39 - Comments on Protocol Re: NWG/RFC #36"
+    },
+    "44": {
+        "refs": [],
+        "title": "RFC 44 - Comments on NWG/RFC 33 and 36"
+    },
+    "47": {
+        "refs": [],
+        "title": "RFC 47 - BBN\\x27s Comments on NWG/RFC #33"
+    }
+}

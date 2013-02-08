@@ -1,0 +1,911 @@
+{
+    "62": {
+        "refs": [],
+        "title": "RFC 62 - Systems for Interprocess Communication in a Resource Sharing Computer Network"
+    },
+    "347": {
+        "refs": [],
+        "title": "RFC 347 - Echo Protocol"
+    },
+    "441": {
+        "refs": [],
+        "title": "RFC 441 - Inter-Entity Communication - an experiment"
+    },
+    "530": {
+        "refs": [],
+        "title": "Does not exist"
+    },
+    "542": {
+        "refs": [
+            640,
+            765,
+            614
+        ],
+        "title": "RFC 542 - File Transfer Protocol"
+    },
+    "565": {
+        "refs": [],
+        "title": "RFC 565 - Storing network survey data at the datacomputer"
+    },
+    "604": {
+        "refs": [
+            739
+        ],
+        "title": "RFC 604 - Assigned link numbers"
+    },
+    "614": {
+        "refs": [
+            607
+        ],
+        "title": "RFC 614 - Response to RFC 607: \"Comments on the File Transfer Protocol\""
+    },
+    "630": {
+        "refs": [],
+        "title": "RFC 630 - FTP error code usage for more reliable mail service"
+    },
+    "691": {
+        "refs": [
+            640,
+            385,
+            354,
+            454,
+            686,
+            630,
+            414
+        ],
+        "title": "RFC 691 - One more try on the FTP"
+    },
+    "768": {
+        "refs": [
+            760,
+            761,
+            762
+        ],
+        "title": "RFC 768 - User Datagram Protocol"
+    },
+    "770": {
+        "refs": [
+            640,
+            388,
+            776,
+            530,
+            323,
+            407,
+            772,
+            542,
+            604,
+            683,
+            429,
+            433,
+            691,
+            565,
+            441,
+            318,
+            707,
+            708,
+            454,
+            759,
+            333,
+            347,
+            348,
+            349,
+            734,
+            738,
+            739,
+            740,
+            741,
+            742,
+            750,
+            755,
+            62,
+            758,
+            503,
+            760,
+            761,
+            762
+        ],
+        "title": "RFC 770 - Assigned numbers"
+    },
+    "783": {
+        "refs": [
+            764,
+            1350
+        ],
+        "title": "RFC 783 - TFTP Protocol (revision 2)"
+    },
+    "790": {
+        "refs": [
+            770,
+            388,
+            776,
+            791,
+            780,
+            530,
+            788,
+            407,
+            792,
+            348,
+            683,
+            429,
+            433,
+            691,
+            820,
+            441,
+            318,
+            454,
+            759,
+            347,
+            604,
+            349,
+            734,
+            739,
+            740,
+            741,
+            742,
+            750,
+            755,
+            758,
+            503,
+            762,
+            764,
+            765
+        ],
+        "title": "RFC 790 - Assigned numbers"
+    },
+    "791": {
+        "refs": [
+            760,
+            2474,
+            1349
+        ],
+        "title": "RFC 791 - Internet Protocol"
+    },
+    "793": {
+        "refs": [
+            3168,
+            6528,
+            1122,
+            6093,
+            790,
+            791,
+            761
+        ],
+        "title": "RFC 793 - Transmission Control Protocol"
+    },
+    "861": {
+        "refs": [],
+        "title": "RFC 861 - Telnet Extended Options: List Option"
+    },
+    "1009": {
+        "refs": [
+            896,
+            904,
+            919,
+            911,
+            914,
+            1812,
+            792,
+            922,
+            796,
+            925,
+            941,
+            942,
+            945,
+            950,
+            823,
+            826,
+            827,
+            868,
+            963,
+            966,
+            970,
+            975,
+            979,
+            980,
+            985,
+            988,
+            994,
+            995,
+            996,
+            869,
+            877,
+            1005,
+            1010,
+            1011,
+            958,
+            888,
+            891,
+            894
+        ],
+        "title": "RFC 1009 - Requirements for Internet gateways"
+    },
+    "1024": {
+        "refs": [
+            869,
+            904,
+            877,
+            1022,
+            792,
+            988,
+            958,
+            1023
+        ],
+        "title": "RFC 1024 - HEMS variable definitions"
+    },
+    "1028": {
+        "refs": [
+            760,
+            827
+        ],
+        "title": "RFC 1028 - Simple Gateway Monitoring Protocol"
+    },
+    "1031": {
+        "refs": [
+            1035,
+            974,
+            952,
+            819,
+            953,
+            920,
+            921,
+            799
+        ],
+        "title": "RFC 1031 - MILNET name domain transition"
+    },
+    "1032": {
+        "refs": [
+            1031,
+            1033,
+            1034,
+            1035,
+            974,
+            952,
+            1010,
+            920,
+            953,
+            1020,
+            881
+        ],
+        "title": "RFC 1032 - Domain administrators guide"
+    },
+    "1033": {
+        "refs": [
+            1034,
+            1035,
+            973,
+            974,
+            1010,
+            883
+        ],
+        "title": "RFC 1033 - Domain Administrators Operations Guide"
+    },
+    "1034": {
+        "refs": [
+            768,
+            2308,
+            2181,
+            1031,
+            1035,
+            2065,
+            920,
+            793,
+            799,
+            805,
+            810,
+            811,
+            812,
+            1010,
+            5936,
+            819,
+            821,
+            822,
+            952,
+            953,
+            1183,
+            1982,
+            4033,
+            4034,
+            4035,
+            1348,
+            1101,
+            974,
+            973,
+            1876,
+            742,
+            2535,
+            1001,
+            1002,
+            4592,
+            882,
+            883,
+            830,
+            4343
+        ],
+        "title": "RFC 1034 - Domain names - concepts and facilities"
+    },
+    "1035": {
+        "refs": [
+            2181,
+            2065,
+            920,
+            793,
+            2845,
+            1183,
+            805,
+            810,
+            811,
+            812,
+            1010,
+            5936,
+            819,
+            821,
+            822,
+            952,
+            953,
+            799,
+            1982,
+            4033,
+            4034,
+            4035,
+            1348,
+            6604,
+            3658,
+            1995,
+            1996,
+            1101,
+            5966,
+            973,
+            1876,
+            974,
+            2136,
+            2137,
+            3425,
+            742,
+            2535,
+            1001,
+            1002,
+            882,
+            883,
+            830,
+            4343
+        ],
+        "title": "RFC 1035 - Domain names - implementation and specification"
+    },
+    "1038": {
+        "refs": [
+            1108
+        ],
+        "title": "RFC 1038 - Draft revised IP security option"
+    },
+    "1042": {
+        "refs": [
+            879,
+            1010,
+            948,
+            826,
+            893
+        ],
+        "title": "RFC 1042 - Standard for the transmission of IP datagrams over IEEE 802 networks"
+    },
+    "1043": {
+        "refs": [
+            732
+        ],
+        "title": "RFC 1043 - Telnet Data Entry Terminal option: DODIIS implementation"
+    },
+    "1046": {
+        "refs": [
+            1016
+        ],
+        "title": "RFC 1046 - Queuing algorithm to provide type-of-service for IP links"
+    },
+    "1047": {
+        "refs": [
+            821
+        ],
+        "title": "RFC 1047 - Duplicate messages and SMTP"
+    },
+    "1048": {
+        "refs": [
+            865,
+            868,
+            903,
+            887,
+            1395,
+            950,
+            951,
+            1497,
+            883,
+            1084,
+            1533
+        ],
+        "title": "RFC 1048 - BOOTP vendor information extensions"
+    },
+    "1049": {
+        "refs": [
+            822,
+            767
+        ],
+        "title": "RFC 1049 - Content-type header field for Internet messages"
+    },
+    "1052": {
+        "refs": [
+            1024,
+            1028,
+            1021,
+            1022,
+            1023
+        ],
+        "title": "RFC 1052 - IAB recommendations for the development of Internet network management standards"
+    },
+    "1066": {
+        "refs": [
+            1156,
+            904,
+            1065,
+            1067,
+            877,
+            815
+        ],
+        "title": "RFC 1066 - Management Information Base for network management of TCP/IP-based internets"
+    },
+    "1067": {
+        "refs": [
+            1065,
+            1098
+        ],
+        "title": "RFC 1067 - Simple Network Management Protocol"
+    },
+    "1073": {
+        "refs": [
+            1011
+        ],
+        "title": "RFC 1073 - Telnet window size option"
+    },
+    "1079": {
+        "refs": [
+            930
+        ],
+        "title": "RFC 1079 - Telnet terminal speed option"
+    },
+    "1080": {
+        "refs": [
+            1372
+        ],
+        "title": "RFC 1080 - Telnet remote flow control option"
+    },
+    "1084": {
+        "refs": [
+            865,
+            868,
+            903,
+            887,
+            1395,
+            950,
+            951,
+            1497,
+            1533
+        ],
+        "title": "RFC 1084 - BOOTP vendor information extensions"
+    },
+    "1091": {
+        "refs": [
+            930,
+            1010,
+            854,
+            855
+        ],
+        "title": "RFC 1091 - Telnet terminal-type option"
+    },
+    "1095": {
+        "refs": [
+            1189,
+            1065,
+            1006,
+            1098,
+            1085
+        ],
+        "title": "RFC 1095 - Common Management Information Services and Protocol over TCP/IP (CMOT)"
+    },
+    "1098": {
+        "refs": [
+            1157,
+            1065
+        ],
+        "title": "RFC 1098 - Simple Network Management Protocol (SNMP)"
+    },
+    "1101": {
+        "refs": [
+            1010,
+            997,
+            973,
+            974,
+            920,
+            882,
+            883,
+            952
+        ],
+        "title": "RFC 1101 - DNS encoding of network names and other types"
+    },
+    "1109": {
+        "refs": [
+            1089,
+            1065
+        ],
+        "title": "RFC 1109 - Report of the second Ad Hoc Network Management Review Group"
+    },
+    "1116": {
+        "refs": [
+            1184,
+            933,
+            1096,
+            856,
+            885,
+            854,
+            855,
+            857,
+            858,
+            859,
+            860
+        ],
+        "title": "RFC 1116 - Telnet Linemode option"
+    },
+    "1119": {
+        "refs": [],
+        "title": "RFC 1119 - Network Time Protocol (version 2) specification and implementation"
+    },
+    "1122": {
+        "refs": [
+            896,
+            1038,
+            1042,
+            792,
+            6298,
+            795,
+            922,
+            1072,
+            4379,
+            1063,
+            1071,
+            813,
+            814,
+            815,
+            816,
+            817,
+            950,
+            826,
+            963,
+            964,
+            1349,
+            6093,
+            995,
+            980,
+            1112,
+            994,
+            6633,
+            879,
+            1009,
+            1010,
+            1011,
+            1016,
+            1108,
+            5884,
+            893,
+            894
+        ],
+        "title": "RFC 1122 - Requirements for Internet Hosts - Communication Layers"
+    },
+    "1123": {
+        "refs": [
+            2181,
+            903,
+            1032,
+            1033,
+            1034,
+            1035,
+            783,
+            1043,
+            1047,
+            1048,
+            1049,
+            1052,
+            930,
+            987,
+            678,
+            1116,
+            1066,
+            882,
+            861,
+            1073,
+            883,
+            821,
+            822,
+            1079,
+            952,
+            953,
+            1084,
+            906,
+            959,
+            1091,
+            1349,
+            1095,
+            5321,
+            1098,
+            951,
+            973,
+            974,
+            1080,
+            980,
+            5966,
+            854,
+            855,
+            856,
+            857,
+            858,
+            859,
+            860,
+            733,
+            734,
+            736,
+            1122,
+            732,
+            1010,
+            1011,
+            1065,
+            765,
+            1109
+        ],
+        "title": "RFC 1123 - Requirements for Internet Hosts - Application and Support"
+    },
+    "1144": {
+        "refs": [
+            896,
+            1134,
+            914,
+            1055
+        ],
+        "title": "RFC 1144 - Compressing TCP/IP Headers for Low-Speed Serial Links"
+    },
+    "1305": {
+        "refs": [
+            1059,
+            868,
+            778,
+            781,
+            5905,
+            867,
+            792,
+            889,
+            891,
+            956,
+            957,
+            958,
+            1119
+        ],
+        "title": "RFC 1305 - Network Time Protocol (Version 3) Specification, Implementation and Analysis"
+    },
+    "1597": {
+        "refs": [
+            1466,
+            1918
+        ],
+        "title": "RFC 1597 - Address Allocation for Private Internets"
+    },
+    "1627": {
+        "refs": [
+            1601,
+            1602,
+            1541,
+            1918,
+            1310
+        ],
+        "title": "RFC 1627 - Network 10 Considered Harmful (Some Practices Shouldn\\x27t be Codified)"
+    },
+    "1812": {
+        "refs": [
+            896,
+            1155,
+            1157,
+            1542,
+            1381,
+            904,
+            827,
+            1418,
+            1419,
+            1420,
+            1583,
+            1038,
+            1269,
+            1253,
+            1046,
+            792,
+            922,
+            795,
+            796,
+            1285,
+            1058,
+            1700,
+            1317,
+            1190,
+            1191,
+            1195,
+            1071,
+            817,
+            1075,
+            1716,
+            1333,
+            950,
+            951,
+            1332,
+            1382,
+            1212,
+            1213,
+            1471,
+            1472,
+            1473,
+            1724,
+            1334,
+            1089,
+            893,
+            1224,
+            1354,
+            1461,
+            1229,
+            1230,
+            1231,
+            888,
+            1108,
+            1112,
+            1304,
+            975,
+            1661,
+            1349,
+            1350,
+            1512,
+            1254,
+            1256,
+            6633,
+            1131,
+            1772,
+            1519,
+            1392,
+            1266,
+            1267,
+            1780,
+            1141,
+            1398,
+            1265,
+            1016,
+            2644,
+            1018,
+            980,
+            1533,
+            1406,
+            1407
+        ],
+        "title": "RFC 1812 - Requirements for IP Version 4 Routers"
+    },
+    "1889": {
+        "refs": [
+            1123,
+            1700,
+            1750,
+            1321,
+            1034,
+            1035,
+            1423,
+            822,
+            791,
+            1305,
+            1627,
+            1597,
+            3550
+        ],
+        "title": "RFC 1889 - RTP: A Transport Protocol for Real-Time Applications"
+    },
+    "1982": {
+        "refs": [],
+        "title": "RFC 1982 - Serial Number Arithmetic"
+    },
+    "1995": {
+        "refs": [
+            1996
+        ],
+        "title": "RFC 1995 - Incremental Zone Transfer in DNS"
+    },
+    "2065": {
+        "refs": [
+            1825,
+            2535,
+            1321,
+            1521,
+            1750,
+            1305,
+            1530
+        ],
+        "title": "RFC 2065 - Domain Name System Security Extensions"
+    },
+    "2136": {
+        "refs": [
+            4033,
+            4034,
+            4035,
+            1996,
+            2137,
+            1982,
+            3007
+        ],
+        "title": "RFC 2136 - Dynamic Updates in the Domain Name System (DNS UPDATE)"
+    },
+    "2137": {
+        "refs": [
+            3007
+        ],
+        "title": "RFC 2137 - Secure Domain Name System Dynamic Update"
+    },
+    "2308": {
+        "refs": [
+            4033,
+            4034,
+            4035,
+            2181,
+            2119,
+            1035,
+            973,
+            2065
+        ],
+        "title": "RFC 2308 - Negative Caching of DNS Queries (DNS NCACHE)"
+    },
+    "2661": {
+        "refs": [
+            2401,
+            2434,
+            1700,
+            2341,
+            1990,
+            2119,
+            1994,
+            2637,
+            1918,
+            1144,
+            2138,
+            1663,
+            1661,
+            1662,
+            2277
+        ],
+        "title": "RFC 2661 - Layer Two Tunneling Protocol \"L2TP\""
+    },
+    "3168": {
+        "refs": [
+            2309,
+            2702,
+            2581,
+            6040,
+            1701,
+            1702,
+            2983,
+            2474,
+            2475,
+            1455,
+            2481,
+            1122,
+            2884,
+            1349,
+            2119,
+            4301,
+            2637,
+            2003,
+            2780,
+            2401,
+            2402,
+            2661,
+            2406,
+            2407,
+            2408,
+            2409,
+            1141
+        ],
+        "title": "RFC 3168 - I-D Tag:"
+    }
+}
